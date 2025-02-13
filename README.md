@@ -1,5 +1,3 @@
-# Knowledge Unit
-
 <br>
 
 Comprehensive repository documenting the breadth of my knowledge as a programmer. This collection aims to showcase my awareness across each side of programming. The goal of this repository is to provide a clear overview of the key areas of expertise I have developed so far, categorized for ease of reference.
