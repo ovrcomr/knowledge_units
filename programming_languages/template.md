@@ -31,11 +31,7 @@
 
 <br>
 
-## **5. Comparison with Other Languages**
-- **Strengths and Weaknesses**: Comparison with similar languages.
-- **When to Use**: Scenarios where this language is a good fit.
-
-<br>
+## **5. Ressources**
 
 ---
 
