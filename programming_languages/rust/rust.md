@@ -100,7 +100,6 @@ Rust continues to grow in popularity, with its emphasis on safety, performance, 
     - [Anatomy of a Rust program](./files/getting_started/hello_world/program_anatomy.md)
     - [Compiling and running are separate steps](./files/getting_started/hello_world/compile_run.md)
   - Hello, Cargo!
-    - Creating a project with Cargo
-    - Building and running a Cargo project
-    - Building for release
-    - Cargo as convention
+    - [Creating a project with Cargo](./files/getting_started/hello_cargo/create_cargo_project.md)
+    - [Building and running a Cargo project](./files/getting_started/hello_cargo/build_and_run.md)
+    - [Building for release](./files/getting_started/hello_cargo/build_for_release.md)
