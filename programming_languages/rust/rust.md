@@ -76,7 +76,7 @@ Rust continues to grow in popularity, with its emphasis on safety, performance, 
 <br>
 
 ## Used ressources
-**The Rust Porgramming Language - Second edition**: [Edition no starch press](https://nostarch.com/rust-programming-language-2nd-edition) 
+**The Rust Porgramming Language - Second edition**: [Edition no starch press](https://nostarch.com/rust-programming-language-2nd-edition)
 
 <br>
 
@@ -87,3 +87,20 @@ Rust continues to grow in popularity, with its emphasis on safety, performance, 
 ---
 
 ## Table of content
+
+- **Getting started**
+  - Installation
+    - [Installing rustup on macOs](./files/getting_started/installation/install_on_macOs.md)
+    - [Troubleshooting](./files/getting_started/installation/troubleshooting.md)
+    - [Updating and uninstalling](./files/getting_started/installation/update_uninstall.md)
+    - [Local documentation](./files/getting_started/installation/local_documentation.md)
+  - Hello, Wolrd!
+    - Creating a project directory
+    - Writing a running a Rust program
+    - Anatomy of a Rust program
+    - Compiling and running are separate steps
+  - Hello, Cargo!
+    - Creating a project with Cargo
+    - Building and running a Cargo project
+    - Building for release
+    - Cargo as convention
