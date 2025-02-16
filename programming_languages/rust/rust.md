@@ -95,10 +95,10 @@ Rust continues to grow in popularity, with its emphasis on safety, performance, 
     - [Updating and uninstalling](./files/getting_started/installation/update_uninstall.md)
     - [Local documentation](./files/getting_started/installation/local_documentation.md)
   - Hello, Wolrd!
-    - Creating a project directory
-    - Writing a running a Rust program
-    - Anatomy of a Rust program
-    - Compiling and running are separate steps
+    - [Creating a project directory](./files/getting_started/hello_world/creating_project_directory.md)
+    - [Writing a running a Rust program](./files/getting_started/hello_world/write_and_run.md)
+    - [Anatomy of a Rust program](./files/getting_started/hello_world/program_anatomy.md)
+    - [Compiling and running are separate steps](./files/getting_started/hello_world/compile_run.md)
   - Hello, Cargo!
     - Creating a project with Cargo
     - Building and running a Cargo project
