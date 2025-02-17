@@ -103,3 +103,19 @@ Rust continues to grow in popularity, with its emphasis on safety, performance, 
     - [Creating a project with Cargo](./files/getting_started/hello_cargo/create_cargo_project.md)
     - [Building and running a Cargo project](./files/getting_started/hello_cargo/build_and_run.md)
     - [Building for release](./files/getting_started/hello_cargo/build_for_release.md)
+
+- **Common programming concepts**
+  - Variable and mutability
+    - [Constants](./files/common_programming_concepts/variable_mutability/constants.md)
+    - [Shadowing](./files/common_programming_concepts/variable_mutability/shadowing.md)
+  - Data types
+    - [Scalar types](./files/common_programming_concepts/data_types/scalar_type.md)
+    - [Compound types](./files/common_programming_concepts/data_types/compound_type.md)
+  - Functions
+    - [Parameters](./files/common_programming_concepts/functions/parameters.md)
+    - [Statements and expressions](./files/common_programming_concepts/functions/statements_expressions.md)
+    - [Function with return values](./files/common_programming_concepts/functions/return_value.md)
+  - [Comment](./files/common_programming_concepts/comments.md)
+  - Control flow
+    - [If expressions](./files/common_programming_concepts/control_flow/if_expression.md)
+    - [Repetition with loops](./files/common_programming_concepts/control_flow/repetition_loops.md)
