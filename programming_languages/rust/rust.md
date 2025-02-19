@@ -119,3 +119,19 @@ Rust continues to grow in popularity, with its emphasis on safety, performance, 
   - Control flow
     - [If expressions](./files/common_programming_concepts/control_flow/if_expression.md)
     - [Repetition with loops](./files/common_programming_concepts/control_flow/repetition_loops.md)
+
+- **Understanding ownership**
+  - What is ownership
+    - [Ownership rules](./files/understanding_ownership/what_is_ownership/ownership_rules.md)
+    - [Variable scope](./files/understanding_ownership/what_is_ownership/variable_scope.md)
+    - [The string type](./files/understanding_ownership/what_is_ownership/string_type.md)
+    - [Memory and allocation](./files/understanding_ownership/what_is_ownership/memory_allocation.md)
+    - [Ownership and functions](./files/understanding_ownership/what_is_ownership/ownership_functions.md)
+    - [Return value and scope](./files/understanding_ownership/what_is_ownership/return_value_scope.md)
+  - References and borrowing
+    - [Mutable references](./files/understanding_ownership/references_borrowing/mutable_references.md)
+    - [Dangling references](./files/understanding_ownership/references_borrowing/dangling_references.md)
+    - [The rule of references](./files/understanding_ownership/references_borrowing/rule_of_references.md)
+  - The slice type
+    - [String slice](./files/understanding_ownership/slice_type/string_slice.md)
+    - [Other slices](./files/understanding_ownership/slice_type/other_slice.md)
