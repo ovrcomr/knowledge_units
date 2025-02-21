@@ -135,3 +135,19 @@ Rust continues to grow in popularity, with its emphasis on safety, performance, 
   - The slice type
     - [String slice](./files/understanding_ownership/slice_type/string_slice.md)
     - [Other slices](./files/understanding_ownership/slice_type/other_slice.md)
+
+- **Using structs to structure related data**
+  - Defining and intantiating structs
+    - [Using the field init shortand](./files/structs_for_related_data/defining_instantiating/field_init_shorthand.md)
+    - [Creating instances from other instances with struct update syntax](./files/structs_for_related_data/defining_instantiating/instances_from_others.md)
+    - [Using tuple structs without named fields to create different types](./files/structs_for_related_data/defining_instantiating/tuple_struct_for_types.md)
+    - [Unit like struct without any field](./files/structs_for_related_data/defining_instantiating/unit_like_struct_without_field.md)
+  - An example of program using structs
+    - [Refactoring with tuples](./files/structs_for_related_data/struct_example/refactoring_with_tuples.md)
+    - [Refactoring with structs : adding more meaning](./files/structs_for_related_data/struct_example/refactoring_with_structs.md)
+    - [Adding useful functionality with derived traits](./files/structs_for_related_data/struct_example/funcs_with_derived_traits.md)
+  - Method syntax
+    - [Defining methods](./files/structs_for_related_data/method_syntax/defining_methods.md)
+    - [Methods with more parameters](./files/structs_for_related_data/method_syntax/method_paramaters.md)
+    - [Associated functions](./files/structs_for_related_data/method_syntax/associated_functions.md)
+    - [Multiple impl blocks](./files/structs_for_related_data/method_syntax/multiple_impl_blocks.md)
