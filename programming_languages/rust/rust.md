@@ -151,3 +151,14 @@ Rust continues to grow in popularity, with its emphasis on safety, performance, 
     - [Methods with more parameters](./files/structs_for_related_data/method_syntax/method_paramaters.md)
     - [Associated functions](./files/structs_for_related_data/method_syntax/associated_functions.md)
     - [Multiple impl blocks](./files/structs_for_related_data/method_syntax/multiple_impl_blocks.md)
+
+- **Enums and pattern matching**
+  - Defining an Enum
+    - [Enum values](./files/enums_pattern_matching/defining_enum/enum_values.md)
+    - [The option enum and its advantages over null values](./files/enums_pattern_matching/defining_enum/option_enum.md)
+  - The match control-flow construct
+    - [Patterns that bind to values](./files/enums_pattern_matching/match_control_flow/bind_to_value_pattern.md)
+    - [Matching with `Option<T>`](./files/enums_pattern_matching/match_control_flow/Option<T>_matching.md)
+    - [Matches are exhaustive](./files/enums_pattern_matching/match_control_flow/exhaustive_matches.md)
+    - [Catch-all pattern and the `_` placeholder](./files/enums_pattern_matching/match_control_flow/Catch-All_pattern.md)
+  - [Concise control-flow with if let](./files/enums_pattern_matching/concise_if_let.md)
