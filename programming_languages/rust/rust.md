@@ -162,3 +162,19 @@ Rust continues to grow in popularity, with its emphasis on safety, performance, 
     - [Matches are exhaustive](./files/enums_pattern_matching/match_control_flow/exhaustive_matches.md)
     - [Catch-all pattern and the `_` placeholder](./files/enums_pattern_matching/match_control_flow/Catch-All_pattern.md)
   - [Concise control-flow with if let](./files/enums_pattern_matching/concise_if_let.md)
+
+- **Managing growing projects with packages, crates and modules**
+  - [Packages and crates](./files/packages_crates_modules/packages_crates.md)
+  - [Defining modules to control scope and privacy](./files/packages_crates_modules/module_scope_privacy.md)
+  - Paths for reffering to an item in the module tree
+    - [Exposing paths with the pub keyword](./files/packages_crates_modules/path_module_tree/exposing_with_pub.md)
+    - [Starting relative paths with super](./files/packages_crates_modules/path_module_tree/relative_path_with_super.md)
+    - [Making structs and enums public](./files/packages_crates_modules/path_module_tree/structs_enums_public.md)
+  - Bringing paths into scope with the use keyword
+    - [Creating idiomatic use paths](./files/packages_crates_modules/path_with_use/idiomatic_use_paths.md)
+    - [Providing new names with the as keyword](./files/packages_crates_modules/path_with_use/naming_with_as.md)
+    - [Re-exporting names with the pub use](./files/packages_crates_modules/path_with_use/re-exporting_pub_use.md)
+    - [Using extrnal packages](./files/packages_crates_modules/path_with_use/external_packages.md)
+    - [Using nested paths to clean up large use lists](./files/packages_crates_modules/path_with_use/nested_paths.md)
+    - [The glob operator](./files/packages_crates_modules/path_with_use/glob_operator.md)
+  - [Separating modules into different files](./files/packages_crates_modules/module_separation.md)
