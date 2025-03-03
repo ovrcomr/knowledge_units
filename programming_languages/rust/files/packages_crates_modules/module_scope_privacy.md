@@ -108,4 +108,4 @@ crate
 ```
 
 This three shows how some of the modules nest inside other modules (parent/child) or in the case multiple modules are inside another they are simblings.
-The entire tree is rooted under the implicit module named `craate`.
+The entire tree is rooted under the implicit module named `crate`.
