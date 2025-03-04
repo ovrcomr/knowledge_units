@@ -1,93 +1,59 @@
-<br>
-
-**Tuple type**
-
-A *tuple* is a general way of grouping together a number of values with a variety of types into one compound type.
+[**Tuples**](https://doc.rust-lang.org/rust-by-example/primitives/tuples.html) can bring together mutliple values with a variety of types into one compound type.
 Tuples have fixed length : once declared, it cannot grow or shrink in size.
 
-Tuples are created by writing a comma-separeted list, of values inside braces. Each position as a type, and types doesn't have to be the same :
+Tuples are created by writing a comma-separeted list, of values inside braces.
+Each position as a type, and types doesn't have to be the same.
+`tup` binds to the entire tuple because a tuple is considered a single compound element :
 
 ```rust
-fn main() {
+// Definition
 
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
+let tup: (i32, f64, u8) = (500, 6.4, 1);
 
-}
+// Accessing element
+let tup_first_element = tup.0; // 500 // Acess by index
+let (x, y, z) = tup // x = 500, y = 6.4, z = 1 // Access by destructuring
+
+// Modifying element
+let mut person: (&str, i32) = ("John", 38); // mutable tuple
+person.0 = "Peter"; // person = ("Peter", 38)
+
 ```
 
-The variable `tup` binds to the entire tuple because a tuple is considered a single compound element.
-To get the individual values out of a tuple, it is possible to use the pattern matching to destructure a tuple value :
-
-```rust
-fn main() {
-
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
-    let (x, y, z) = tup;
-
-    println!("The value of y is : {y}")
-
-}
-```
-
-This program first create a tuple `tup`, and then use *destructuring* to assign to different (x, y and z) variable each values of the tuple.
-x is assinged to `500`, y to `6.4` and `z` to `1`. It's also possible to access element using tuple index (start from 0) :
-
-```rust
-fn main() {
-
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
-    let five_hundred = tup.0;
-    let six_dot_four = tup.1;
-    let one = tup.2;
-
-}
-```
-
-A tuple without any value has a special name : unit. This value and its corresponding type are both written () and represent en empty value or an empty
+A tuple without any value is the **unit** type. Written by `()`, it represents en empty value or an empty
 return type. Expressions implicitly return the unit value if they don't return any other value.
+
+<br>
 
 ---
 
-**Array type**
+<br>
 
-Array represent another way to collect multiple values. Unlike tuples, every element of an array must have the same type and have a fixed length.
 
-```rust
-fn main() {
-
-    let a = [1, 2, 3, 4, 5];
-
-}
-```
-
-Arrays are useful when the data need to be allocated on the stack rather than on the heap, or when a developer wants to ensure to have a fixed number of elements.
-Vectors are similar to arrays, but they can grow or shrink. They are provided by the standard library. Arrays remains useful when having a pre-defined number of elements.
-A usecase of array can be month representation.
-
-To specify the type of an array :
+[**Arrays**](https://doc.rust-lang.org/rust-by-example/primitives/array.html) represent another way to collect multiple values.
+- All the values inside must have the same type (unlike tuples).
+- The size is fixed at declaration (like tuple).
 
 ```rust
-let a: [i32, 5] = [1, 2, 3, 4, 5]; // [type, number_of_element]
+// Definition
+
+let first_numbers = [1, 2, 3, 4, 5]; // simple definition
+let first_numbers: [i32; 5] = [1, 2, 3, 4, 5]; // [stored type, number of element]
+let ten_three: [3; 10]; // [value of each element, number of element]
+
+// Accessing element
+
+let second_array: [&str, 2] = ["Hello", "World", "Code"];
+let last_element = second_array[2]; // Code
+
+// Modifying element
+
+let mut names: [&str; 2] = ["Hello", "World"]; // mutable array
+names[0] = "Goodbye"; // names = ["Goodbye", "World"]
 ```
 
-It's also possible to initialize an array to contain the same value for each elements :
+Arrays are useful when :
+- The data need to be on the stack (rather heap stored)
+- Ensuring a fixed number of elements.
 
-```rust
-let a: [3; 10]; // [elements_value, number_of_element]
-```
-
-**Accessing element**
-
-Elements can be accessed using index (start from 0):
-
-```rust
-fn main() {
-
-    let a: [i32, 5] = ["First", "Second", "Third", "Fourth", "Fifth"];
-    let first = a[2]; // Third
-
-}
-```
-
-When trying to access an element in a list, Rust will verify if the provided index is greater that the array length.
-If the index is greater or equal (last index is number_of_element - 1; array.len() - 1), the compiler will *panic* and exit the program.
+[**Vectors**](https://doc.rust-lang.org/rust-by-example/std/vec.html) only differ from *arrays* because they can grow/shrink in size during execution.
