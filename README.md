@@ -1,7 +1,12 @@
+## Knowledge units
+Ongoing unit : [Rust](https://www.rust-lang.org/) - [*Book*](https://doc.rust-lang.org/book/)
+
+<br>
 <br>
 
-Comprehensive repository documenting the breadth of my knowledge as a programmer. This collection aims to showcase my awareness across each side of programming. The goal of this repository is to provide a clear overview of the key areas of expertise I have developed so far, categorized for ease of reference.
+> ✏ Comprehensive repository where everything I have learned is documented. It serves as an archives where previous learning resources can be retrieved and deepened, and a place where others can follow and list what I am currently studiyng.
 
+<br>
 <br>
 
 - **Hard-Skills**
@@ -15,12 +20,19 @@ Comprehensive repository documenting the breadth of my knowledge as a programmer
     - [Version Control](#version-control)
     - [Operating Systems](#operating-systems)
 
-- **Soft-Skills**
-    - [Project Management](#project-management)
-    - [Collaboration & Teamwork](#collaboration--teamwork)
-    - [Communication](#communication)
-    - [Problem-Solving & Creativity](#problem-solving--creativity)
-    - [Vulgarization & Teaching](#vulgarization--teaching)
+<br>
+
+- <details>
+    <summary>Upcoming : Soft skills</summary>
+
+    - **Soft-Skills**
+      - [Project Management](#project-management)
+      - [Collaboration & Teamwork](#collaboration--teamwork)
+      - [Communication](#communication)
+      - [Problem-Solving & Creativity](#problem-solving--creativity)
+      - [Vulgarization & Teaching](#vulgarization--teaching)
+
+    </details>
 
 <br>
 
@@ -29,31 +41,8 @@ Comprehensive repository documenting the breadth of my knowledge as a programmer
 <br>
 
 ### Programming Languages
-A summary of the languages I am familiar with, with additional detailed documentation available in dedicated files.
 
-- 
-
-<br>
-
----
-
-<br>
-
-### Computer Science Concepts
-A collection of core concepts I’ve encountered and understood.
-
--
-
-<br>
-
----
-
-<br>
-
-### Algorithms & Data Structures
-Key algorithms and data structures I am familiar with, including time and space complexities.
-
-- 
+- [**Rust**](https://github.com/ovrcomr/knowledge_units/blob/rust/programming_languages/rust/rust.md/)
 
 <br>
 
@@ -62,42 +51,10 @@ Key algorithms and data structures I am familiar with, including time and space 
 <br>
 
 ### Development Tools & Environments
-This section includes the tools and environments I’ve used in the development process.
 
--
-
-<br>
-
----
-
-<br>
-
-### Software Engineering Practices
-Best practices, methodologies, and principles I've encountered throughout my journey, emphasizing collaboration, continuous improvement, and effective project management.
-
--
-
-<br>
-
----
-
-<br>
-
-### Frameworks & Libraries
-The frameworks and libraries I’ve explored and used in various projects.
-
--
-
-<br>
-
----
-
-<br>
-
-### Databases
-Overview of the databases and querying languages I have experience with.
-
--
+- [**Zed**](https://zed.dev/) *main*
+- [**Visual Studio Code**](https://code.visualstudio.com/)
+- [**Vim**]()
 
 <br>
 
@@ -106,10 +63,9 @@ Overview of the databases and querying languages I have experience with.
 <br>
 
 ### Version Control
-Tools and systems I have used for tracking changes and collaborating on code, with an emphasis on effective communication within teams.
 
-- **Git** *CLI*
-- **GitHub**
+- [**Git**](https://git-scm.com/) *CLI*
+- [**GitHub**](https://github.com/)
 
 <br>
 
@@ -118,19 +74,75 @@ Tools and systems I have used for tracking changes and collaborating on code, wi
 <br>
 
 ### Operating Systems
-The operating systems I have worked on.
 
-- **Windows**
-- **macOS**
+- [**Windows**](https://www.microsoft.com/fr-fr/windows/)
+- [**macOS**](https://www.apple.com/fr/macos/macos-sequoia/) *main*
 
-
-<br>
-
----
 
 <br>
 
-### Project Management
+<details>
+    <summary>Future sections</summary>
+
+  <br>
+
+  ### Computer Science Concepts
+
+  -
+
+  <br>
+
+  ---
+
+  <br>
+
+  ### Algorithms & Data Structures
+
+  -
+
+  <br>
+
+  ---
+
+  <br>
+
+  ### Software Engineering Practices
+  Best practices, methodologies, and principles I've encountered throughout my journey, emphasizing collaboration, continuous improvement, and effective project management.
+
+  -
+
+  <br>
+
+  ---
+
+  <br>
+
+  ### Frameworks & Libraries
+
+  -
+
+  <br>
+
+  ---
+
+  <br>
+
+  ### Databases
+
+  -
+
+  <br>
+
+  ---
+
+</details>
+
+<!-- <br> -->
+
+<details>
+  <summary>Upcoming : Soft skills</summary>
+
+  ### Project Management
 Key skills for planning, organizing, and executing projects efficiently.
 
 - **Agile & Scrum**
@@ -193,3 +205,5 @@ Skills related to simplifying complex ideas and teaching others, which is vital 
 - **Writing Tutorials**
 - **Creating Learning Resources**
 - **Peer-to-Peer Training**
+
+</details>
