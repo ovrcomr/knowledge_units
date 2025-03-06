@@ -78,8 +78,6 @@ Ongoing unit : [Rust](https://www.rust-lang.org/) - [*Book*](https://doc.rust-la
 - [**Windows**](https://www.microsoft.com/fr-fr/windows/)
 - [**macOS**](https://www.apple.com/fr/macos/macos-sequoia/) *main*
 
-
-<br>
 <br>
 <br>
 
