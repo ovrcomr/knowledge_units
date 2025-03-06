@@ -54,7 +54,7 @@ Ongoing unit : [Rust](https://www.rust-lang.org/) - [*Book*](https://doc.rust-la
 
 - [**Zed**](https://zed.dev/) *main*
 - [**Visual Studio Code**](https://code.visualstudio.com/)
-- [**Vim**]()
+- [**Vim**](https://youtu.be/RZ4p-saaQkc?si=1t7leiWxk5e1aShx)
 
 <br>
 
@@ -78,7 +78,7 @@ Ongoing unit : [Rust](https://www.rust-lang.org/) - [*Book*](https://doc.rust-la
 - [**Windows**](https://www.microsoft.com/fr-fr/windows/)
 - [**macOS**](https://www.apple.com/fr/macos/macos-sequoia/) *main*
 
-
+<br>
 <br>
 
 <details>
@@ -107,7 +107,6 @@ Ongoing unit : [Rust](https://www.rust-lang.org/) - [*Book*](https://doc.rust-la
   <br>
 
   ### Software Engineering Practices
-  Best practices, methodologies, and principles I've encountered throughout my journey, emphasizing collaboration, continuous improvement, and effective project management.
 
   -
 
