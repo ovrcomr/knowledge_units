@@ -6,6 +6,7 @@
 | ---                                                                    | ---                | ---                | ---                                                                 |
 | [The Rust Programming Language](#the-rust-programming-language)        |  Dec. 22           | Book               | [🔗](https://nostarch.com/rust-programming-language-2nd-edition)    |
 
+
 <br>
 
 ---
