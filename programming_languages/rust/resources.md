@@ -1,14 +1,20 @@
-**The Rust Porgramming Language - Second edition**: [Edition no starch press](https://nostarch.com/rust-programming-language-2nd-edition)
+## Resources
 
 <br>
 
-![](./img/book_cover.jpg)
+| Name                                                                   | Release date       | Format             | Link                                                                |
+| ---                                                                    | ---                | ---                | ---                                                                 |
+| [The Rust Programming Language](#the-rust-programming-language)        |  Dec. 22           | Book               | [🔗](https://nostarch.com/rust-programming-language-2nd-edition)    |
 
 <br>
 
 ---
 
-## Table of content
+<br>
+
+## The Rust Programming Language
+
+<br>
 
 - **Getting started**
   - Installation

@@ -1,4 +1,4 @@
-## **Rust**
+## Rust
 <a style="color: grey; font-size: 12" href="./resources.md">Resources</a>
 
 <br>
