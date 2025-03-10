@@ -106,3 +106,26 @@
     - [Using nested paths to clean up large use lists](./files/packages_crates_modules/path_with_use/nested_paths.md)
     - [The glob operator](./files/packages_crates_modules/path_with_use/glob_operator.md)
   - [Separating modules into different files](./files/packages_crates_modules/module_separation.md)
+
+- **Common collections**
+  - Storing list of values with Vectors
+    - [Creating a new vector](./files/common_collections/vectors/creating_vector.md)
+    - [Updating a vector](./files/common_collections/vectors/updating_vector.md)
+    - [Reading elements of vectors](./files/common_collections/vectors/reading_vector.md)
+    - [Iterating over the values in a vector](./files/common_collections/vectors/vector_iteration.md)
+    - [Using an Enum to store values in a vector](./files/common_collections/vectors/enums_for_types.md)
+    - [Dropping a vector drops its elements](./files/common_collections/vectors/dropping_vector.md)
+  - Storing UTF-8 encoded text using strings
+    - [What is a string](./files/common_collections/strings/string_definition.md)
+    - [Creating a new string](./files/common_collections/strings/string_creation.md)
+    - [Updating a string](./files/common_collections/strings/string_updating.md)
+    - [Indexing into strings](./files/common_collections/strings/string_indexing.md)
+    - [Slicing strings](./files/common_collections/strings/string_slicing.md)
+    - [Methods for iterating over strings](./files/common_collections/strings/string_iteration.md)
+    - [String are not so simple](./files/common_collections/strings/string_complexity.md)
+  - Storing keys with associated values in HashMap
+    - [Creating a new HashMap](./files/common_collections/hashmaps/hashmap_creation.md)
+    - [Accessing values in a HashMap](./files/common_collections/hashmaps/hashmap_value_access.md)
+    - [HashMap and ownership](./files/common_collections/hashmaps/hashmap_ownership.md)
+    - [Updating a HashMap](./files/common_collections/hashmaps/hashmap_updating.md)
+    - [Hashing functions](./files/common_collections/hashmaps/hashing_functions.md)
