@@ -129,3 +129,14 @@
     - [HashMap and ownership](./files/common_collections/hashmaps/hashmap_ownership.md)
     - [Updating a HashMap](./files/common_collections/hashmaps/hashmap_updating.md)
     - [Hashing functions](./files/common_collections/hashmaps/hashing_functions.md)
+
+- **Error handling**
+  - [Unrecoverable errors with panic!](./files/error_handling/unrecoverable_panic!.md)
+  - Recoverable errors with Result
+    - [Matching on different errors](./files/error_handling/recoverable_result/error_matching.md)
+    - [Propagating errors](./files/error_handling/recoverable_result/propagating_errors.md)
+  - To panic! or not to panic!
+    - [Examples, prototype code, and tests](./files/error_handling/panic!_or_not/ex_proto_code_test.md)
+    - [Cases in which you have more information that the compiler](./files/error_handling/panic!_or_not/off_compiler_cases.md)
+    - [Guidelines for error handling](./files/error_handling/panic!_or_not/error_handling_guidelines.md)
+    - [Creating custom types for validation](./files/error_handling/panic!_or_not/custom_type_for_validation.md)
