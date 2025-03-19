@@ -4,11 +4,6 @@ Ongoing unit : [Rust](https://www.rust-lang.org/) - [*Book*](https://doc.rust-la
 <br>
 <br>
 
-> ✏ Comprehensive repository where everything I have learned is documented. It serves as an archives where previous learning resources can be retrieved and deepened, and a place where others can follow and list what I am currently studiyng.
-
-<br>
-<br>
-
 - **Hard-Skills**
     - [Programming Languages](#programming-languages)
     - [Computer Science Concepts](#computer-science-concepts)
